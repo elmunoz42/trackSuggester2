@@ -8,15 +8,21 @@ label {
 form {
   margin-top: 0px;
 }
+a {
+  margin-top: 5px;
+}
+em {
+  font-size: 26px;
+}
+.resources {
+  display:none;
+}
 .answer label {
     margin-left: 10px;
     color: navy;
 }
 #suggestion h4 {
    font-size: 26px;
-}
-em {
-  font-size: 26px;
 }
 .container {
   margin-left: 10px;
@@ -36,9 +42,6 @@ em {
 #left-menu .jumbotron ul {
   padding-left: 0px;
   text-align: left;
-}
-a {
-  margin-top: 5px;
 }
 #adventure {
   color: navy;

@@ -59,10 +59,17 @@ $("#pathFinderInput").submit(function(event) {
   var inputB = $("#type-of-code").val();
   var result = pathFinder(inputA, inputB);
   $("#suggestion").text(result);
-  alert("Also if you feel inspired join our email list!");
+  alert("Drum roll please .   .   .   .   .  .  .  . . . . . .. . .......................")
+  alert("One more thing! If you feel inspired join our email/github list!");
 });
 
-greetAndventurer(Steve) ;
+$("#intakeForm").submit(function(event) {
+  event.preventDefault();
+  var adventurer = $("#name").val();
+  var result = greetAndventurer(adventurer);
+  $("#adventure").text(result);
+  $("ul").removeClass("resources");
+});
 
 
 });
