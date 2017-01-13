@@ -1,0 +1,41 @@
+h1 .jumbotron {
+  font-size: 2em;
+}
+label {
+  text-align: center;
+  color: black;
+
+}
+.answer label {
+    margin-left: 10px;
+    color: navy;
+}
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.jumbotron {
+  margin-top: 13px;
+  background-color: lightblue;
+  padding-bottom: 20px;
+}
+
+#adventure {
+  color: navy;
+  font-weight: bolder;
+}
+
+#leftmenu {
+  background-color: lightgreen;
+
+}
+#leftmenu p{
+  font-size: 15px;
+}
+#second-row {
+  margin-left: 1px;
+}
+#suggestion {
+  background-color: lightgreen;
+}
