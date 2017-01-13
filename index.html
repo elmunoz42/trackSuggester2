@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ifs and buts</title>
+    <title>Track Suggester</title>
     <link rel="stylesheet" href="css/bootstrap.css" media="all" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
     <script src="js/jquery-3.1.1.js"></script>
@@ -11,7 +11,7 @@
     <div class="container">
       <div class="row" id="first-row">
         <div class="col-md-3">
-          <div class="jumbotron" id="leftmenu">
+          <div class="jumbotron" id="left-menu">
             <form>
               <div class="form-group" class="intakeForm">
                 <label for="userName">May I know your Name?
@@ -27,9 +27,9 @@
                 <a href="http://udemy.com/">Udemy (Online)</a>
                 <a href="https://pdxcodeguild.com/apply/?utm_campaign=OMG+-+Student+Recruitment&utm_source=google&utm_medium=ppc&utm_term=%2Bcode+%2Bacademy&utm_content=1845445x710771732009071975">PDX-Code-Guild</a>
           </div>
-          <!-- leftmenu -->
+          <!-- left-menu -->
         </div>
-        <!-- leftmenu column -->
+        <!-- left-menu column -->
       <div class="col-md-9">
         <div class="title">
           <div class="jumbotron">
@@ -48,23 +48,34 @@
               <div class="form-group" id="Question1">
                 <label>A)What kind of job are you looking to get?</label>
                 <div class="answer">
-                  <select class="form-control" id="desiredEmployment" name="desiredEmployment">
-                    <option value="A1">Self-employment (apps)</option>
-                    <option value="A2">Self-employment (web)</option>
-                    <option value="A3">Start-up (web)</option>
-                    <option value="A4">Corporate front-end</option>
-                    <option value="A5">Corporate back-end</option>
+                  <select class="form-control" id="desired-employment" name="desired-employment">
+                    <option value="A1">Self-employment</option>
+                    <option value="A2">Start-up</option>
+                    <option value="A3">Corporate</option>
                   </select>
                 </div>
                 <!-- answer A-->
-                <label>B)What's your level of experience?</label>
-                <select class="form-control" id="experience" name="experience">
-                  <option value="B1">No experience</option>
-                  <option value="B2">Six months self-taught</option>
-                  <option value="B3">Six months online course</option>
-                  <option value="B4">Epicodus graduate (or similar)</option>
-                  <option value="B5">BS Computer Science</option>
-                </select>
+                <div class="typeofcode">
+                  <label>B)What type of project intersts you?</label>
+                  <select class="form-control" name="type-of-code">
+                    <option value="B1">Websites</option>
+                    <option value="B2">Interactive Websites</option>
+                    <option value="B3">Software</option>
+                    <option value="B4">Apps</option>
+                  </select>
+                </div>
+                <div class="expericence">
+                  <label>C)What's your level of experience?</label>
+                  <select class="form-control" id="experience" name="experience">
+                    <option value="1">No experience</option>
+                    <option value="2">Six months self-taught</option>
+                    <option value="3">Six months online course</option>
+                    <option value="4">Epicodus graduate (or similar)</option>
+                    <option value="5">BS Computer Science</option>
+                  </select>
+                </div>
+                <!-- answer C -->
+
 
               </div>
               <!-- form-group -->

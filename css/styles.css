@@ -37,11 +37,11 @@ a {
   font-weight: bolder;
 }
 
-#leftmenu {
+#left-menu {
   background-color: lightgreen;
 
 }
-#leftmenu p{
+#left-menu p{
   font-size: 15px;
   margin-bottom: 5px;
 }
