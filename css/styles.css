@@ -14,9 +14,11 @@ a {
 em {
   font-size: 26px;
 }
-.resources {
+ul {
+  margin-bottom: 5px;
   display:none;
 }
+/*could not get hide-show to work?*/
 .answer label {
     margin-left: 10px;
     color: navy;
@@ -30,13 +32,16 @@ em {
 }
 .jumbotron {
   margin-top: 13px;
+  margin-bottom: 13px;
   background-color: lightblue;
   padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 12px;
   padding-right: 12px;
 }
-.jumbotron h1 {
+#hidden p  {
+  font-size: 13px;
+  margin-top: 18px;
 
 }
 #left-menu .jumbotron ul {

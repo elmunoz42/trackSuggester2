@@ -1,7 +1,8 @@
 ////////////////Business End////////////////////
 function greetAndventurer(name) {
-  var adventurer = prompt("name?");
+  var adventurer = name;
   var result = "Thanks, " + adventurer + "have a great adventure!";
+  return result;
   alert(result);
 }
 
@@ -61,14 +62,18 @@ $("#pathFinderInput").submit(function(event) {
   $("#suggestion").text(result);
   alert("Drum roll please .   .   .   .   .  .  .  . . . . . .. . .......................")
   alert("One more thing! If you feel inspired join our email/github list!");
+  $("ul").show();
 });
 
 $("#intakeForm").submit(function(event) {
   event.preventDefault();
   var adventurer = $("#name").val();
+  console.log("adventurer:" + adventurer);
   var result = greetAndventurer(adventurer);
   $("#adventure").text(result);
-  $("ul").removeClass("resources");
+  alert(adventurer);
+
+
 });
 
 
