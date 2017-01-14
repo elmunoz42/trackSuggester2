@@ -34,10 +34,7 @@ function pathFinder(parameterA, parameterB) {
   }
   return result;
 }
-// function suggestedTraining(inputC) {
-//
-//
-// }
+
 
 
 
@@ -52,7 +49,9 @@ function pathFinder(parameterA, parameterB) {
 //////////////////User Interface//////////////////////
 $(document).ready(function() {
 
+
 alert("Hello budding programmer! Please fill out this form and you can learn how to make pop ups like this one, and so much more!");
+
 
 $("#pathFinderInput").submit(function(event) {
   event.preventDefault();
