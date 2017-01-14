@@ -34,10 +34,7 @@ function pathFinder(parameterA, parameterB) {
   }
   return result;
 }
-// function suggestedTraining(inputC) {
-//
-//
-// }
+
 
 
 
