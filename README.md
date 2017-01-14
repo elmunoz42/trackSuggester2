@@ -12,7 +12,8 @@ _One page dynamic website will give suggestions based on form submissions using 
 
 * _Download Google Chrome browser_
 * _in browser open https://elmunoz42.github.io/trackSuggester2/_
-* _Clone repository at https://github.com/elmunoz42/trackSuggester2__
+* _Clone repository at https://github.com/elmunoz42/trackSuggester2_
+* _open index.html_
 
 
 _Log onto page in any modern browser (I used Google Chrome). To view repository files I recommend using Atom v1.12.9 or later. _
