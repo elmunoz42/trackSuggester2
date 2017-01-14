@@ -59,8 +59,7 @@ $("#pathFinderInput").submit(function(event) {
   var inputB = $("#type-of-code").val();
   var result = pathFinder(inputA, inputB);
   $("#suggestion").text(result);
-  alert("Drum roll please .   .   .   .   .  .  .  . . . . . .. . .......................")
-  alert("One more thing! If you feel inspired join our email/github list!");
+  alert("If you feel inspired please join our email/github list!");
   $("ul").show();
 });
 
