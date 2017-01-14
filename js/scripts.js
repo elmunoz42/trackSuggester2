@@ -1,24 +1,24 @@
 ////////////////Business End////////////////////
 function greetAndventurer(name) {
   var adventurer = name;
-  var result = "Thanks, " + adventurer + "have a great adventure!";
+  var result = "Thanks " + adventurer + ", have a great adventure!";
   return result;
   alert(result);
 }
 
 
 function pathFinder(parameterA, parameterB) {
-  var inputA = "A1";
-  var inputB = "B1";
+  var inputA = parameterA;
+  var inputB = parameterB;
   var result;
   if (inputA === "A3" || inputB === "B3") {
-    result = "You should look into C# or Java. NOT THE SAME AS JAVASCRIPT!!!";
+    result = "You should look into C# or Java.";
   }
   else if (inputA === "A2" || inputA == "A3" || inputB === "B1") {
-    result = "You should look into PHP, Ruby or Java. NOT THE SAME AS JAVASCRIPT!!!";
+    result = "You should look into PHP, Ruby or Java.";
   }
   else if (inputB === "B1" || inputB === "B4") {
-    result = "You should look into Ruby or Java. NOT THE SAME AS JAVASCRIPT!!!";
+    result = "You should look into Ruby or Java.";
   }
   else if (inputA === "A2" || inputA === "A3" || inputB === "B1") {
     result = "You should look into PHP.";
@@ -27,7 +27,7 @@ function pathFinder(parameterA, parameterB) {
     result = "You should look into Ruby.";
   }
   else if (inputB === "B1" || inputB === "B3" || inputB === "B4") {
-    result = "You should look into Java. NOT THE SAME AS JAVASCRIPT!!!";
+    result = "You should look into Java.";
   }
   else {
     alert("I hate/love jQuery!!!");
@@ -70,10 +70,8 @@ $("#intakeForm").submit(function(event) {
   var adventurer = $("#name").val();
   console.log("adventurer:" + adventurer);
   var result = greetAndventurer(adventurer);
+  console.log("result:" + result)
   $("#adventure").text(result);
-  alert(adventurer);
-
-
 });
 
 

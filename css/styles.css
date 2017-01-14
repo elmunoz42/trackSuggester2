@@ -5,6 +5,9 @@ label {
   margin-bottom: 10px;
 
 }
+h1 {
+  text-align: center;
+}
 form {
   margin-top: 0px;
 }
@@ -17,6 +20,7 @@ em {
 ul {
   margin-bottom: 5px;
   display:none;
+  line-height: 21px;
 }
 /*could not get hide-show to work?*/
 .answer label {
